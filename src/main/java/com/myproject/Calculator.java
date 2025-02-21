@@ -1,6 +1,8 @@
+package com.myproject;
+
 import java.util.UUID;
 
-class Calculator {
+public class Calculator {
     //commenting for a first commit
     Calculator(){
 
