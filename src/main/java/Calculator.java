@@ -21,7 +21,7 @@ class Calculator {
     int divide(int a , int b){
         try{
         return a / b;}
-        catch (Exception ex){
+        catch (ArithmeticException ex){
             System.out.println(ex.getMessage());
             return 0;
         }
