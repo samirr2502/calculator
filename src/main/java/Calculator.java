@@ -1,5 +1,3 @@
-package com.myproject;
-
 import java.util.UUID;
 
 public class Calculator {
