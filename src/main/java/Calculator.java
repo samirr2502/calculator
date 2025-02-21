@@ -18,7 +18,12 @@ class Calculator {
     }
 
     int divide(int a , int b){
-        return a / b;
+        try{
+        return a / b;}
+        catch (Exception ex){
+            System.out.println(ex.getMessage());
+            return 0;
+        }
     }
 
 
