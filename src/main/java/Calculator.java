@@ -20,7 +20,8 @@ class Calculator {
 
     int divide(int a , int b){
         try{
-        return a / b;}
+            int div=a/b;
+        return div;}
         catch (ArithmeticException ex){
             System.out.println(ex.getMessage());
             return 0;
