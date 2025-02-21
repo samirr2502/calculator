@@ -23,7 +23,7 @@ class Calculator {
             int div=a/b;
         return div;}
         catch (ArithmeticException ex){
-            System.out.println(ex.getMessage());
+            System.out.println("/ by zero");
             return 0;
         }
     }
