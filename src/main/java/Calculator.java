@@ -19,13 +19,10 @@ class Calculator {
     }
 
     int divide(int a , int b){
-        try{
-            int div=a/b;
-        return div;}
-        catch (ArithmeticException ex){
-            System.out.println("/ by zero");
-            return 0;
+        if(b == 0) {
+            throw new ArithmeticException("/ by zero");
         }
+        return a / b;
     }
 
 
